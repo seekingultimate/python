@@ -1,0 +1,6 @@
+import re
+pattern=r"pure"
+if re.match(pattern,"purepurepd"):
+    print("success")
+else:
+    print("sorry dear")
